@@ -1,29 +1,70 @@
-"# �ҵ���Ŀ����" 
-how to be a good FDE?  
-2026:  
-1.21:so how?
-商讨过程中：  
-    1：产品技术/方案的边界，做支持服务not涵盖所有一切的  
-技术深度：  
-    2：模型优劣，评估，技术深度，落地评估  
-    3：部署，工具链，跑在各个硬件上，保证计算资源效率（评估 部署 应用 服务方案）现有工具docker,k8s  
-    4：推理框架：TensorRT（Nvidia），ONNX，OpenVINO  
-    5：后端开发：python(FastAPI/Flask)  
-执行：  
-    6：处理真实世界的“脏数据”和硬件环境（如何做部署和效果验证）    
-    7：全球学术与工业前沿（what is new and necessary?）  
-    UC Berkeley - Sky Computing Lab： 专注于分布式系统和 AI 部署。  
-        Stanford - DAWN (Data Analytics Workbenches)： 关注如何降低 AI 应用的门槛。  
-    顶级公司进展：
-        NVIDIA (Omniverse/Triton)： 关注其推理服务器 Triton Inference Server 的更新。    
-        AnyScale (Ray)： 关注分布式计算框架的落地。  
-必读里程碑论文  
-    架构类： 《Attention is All You Need》(Transformer 基础)。  
-    部署类： 《Hidden Technical Debt in Machine Learning Systems》(Google 出品，FDE 必读，理解系统负担)。  
-    优化类： 《TensorRT: A Deep Learning Inference Optimizer and Runtime》。  
-职业：  
-    8.部署--->理解垂直领域的完整链路，行业的底层逻辑（哲学抽象）面向客户技术方案撰写+危机处理  
-    9.边缘AI：TinyML
-    10.Auto-MLops:转向系统架构设计
-    11.了解客户，了解需求，懂业务，懂产品，懂需求，链接需求，业务，产品，技术cook起来  
-    12.plan your working time / 效率 /产出比
+# AI 全栈工程师学习知识库
+
+> 2025-2026 年 AI Agent / FDE / LLM 应用开发学习路径
+
+## 简介
+
+本项目是一套系统化的 AI 工程师学习路线图，专为准备进入 AI 领域的开发者设计。知识库基于真实招聘需求分析（BOSS 直聘、拉勾、猎聘等平台），覆盖从入门到就业的完整学习路径。
+
+## 目标岗位
+
+- **AI Agent 工程师** — 2025 年热门岗位
+- **Foundation Developer Engineer (FDE)** — 基础开发工程师
+- **LLM 应用开发工程师** — 大模型应用开发
+- **AI 算法工程师**
+
+## 文档结构
+
+| 文档 | 说明 |
+|------|------|
+| `AI_FDE全栈学习路径_2025-2026.md` | 全栈学习路径总览，包含架构图和资源汇总 |
+| `FDE(AI)知识库Raw Data（R&D+工作流）(2).md` | 原始知识库，精选 AI 框架、工具和学习资源链接 |
+| `AI_Agent_工程师100天学习计划_2025.md` | AI Agent 工程师专属 100 天计划 |
+| `AI大模型应用_100天学习计划_2025.md` | LLM 应用开发者 100 天计划 |
+| `AI全栈工程师_100天学习计划_三岗位版_2025.md` | 覆盖三个岗位的综合版计划 |
+| `AI_100天学习计划_JD分析版_2025.md` | 基于职位描述分析的定向学习计划 |
+
+## 技术栈覆盖
+
+### Layer 1: 基础设施
+- vLLM、SGLang、TensorRT-LLM、Ollama
+- 模型部署与推理优化
+
+### Layer 2: 基础模型
+- 大语言模型原理与应用
+- 微调技术：SFT、PEFT、LoRA
+
+### Layer 3: Agent 应用
+- RAG 检索增强生成
+- LangChain、LangGraph 框架
+- Multi-Agent 系统
+
+### Layer 4: 工程化
+- FastAPI、Docker
+- 模型服务部署
+- 生产环境最佳实践
+
+## 学习资源精选
+
+- **Datawhale 教程** — 中文 AI 社区优质教程
+- **HuggingFace 课程** — 官方认证学习路径
+- **Anthropic 工程博客** — 业界前沿技术分享
+- **GitHub 仓库** — LangChain、LangGraph、AutoGen 等
+
+## 快速开始
+
+1. 根据你的目标岗位，选择对应的 100 天学习计划
+2. 参考 `AI_FDE全栈学习路径_2025-2026.md` 了解整体架构
+3. 使用 `FDE(AI)知识库Raw Data` 深入学习每个技术点
+
+## 薪资参考
+
+根据市场分析，相关岗位薪资范围：**15-80K RMB/月**
+
+## 许可
+
+本项目为个人学习笔记，内容仅供学习参考。
+
+---
+
+**最后更新**: 2025 年 2 月 11 日
