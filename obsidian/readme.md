@@ -5,7 +5,6 @@
 一键 Clone 即用，3 分钟搭建你的 AI 第二大脑
 
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
-![GitHub stars](https://img.shields.io/github/stars/findpsyche/GoodFDE?style=social)
 ![Version](https://img.shields.io/badge/版本-2026.03-blue)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
