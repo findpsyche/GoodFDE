@@ -71,7 +71,7 @@
 3. 点击 **Browse**
 4. 搜索插件名称 → Install → Enable
 
-### 方法二：BRAT（你已安装，测试版神器）
+### 方法二：BRAT（测试版神器）
 
 1. Settings → Community plugins → BRAT
 2. **Add a beta plugin for testing**
@@ -114,17 +114,3 @@
 - Smart Connections（AI 智能关联）
 
 ---
-
-## 📋 最佳实践（AI 工程师专用）
-
-1. **组织结构**：少用文件夹，多用 MOC + 双链
-2. **每日流程**：
-   - Calendar 点击今天 → Templater 插入「学习模板」
-   - 阅读 GoodFDE 文档 → 用 `[[双链]]` 关联
-   - Claudian 命令：「请总结这篇 vLLM 笔记并生成代码示例」
-3. **Dataview 仪表盘示例**（新建 `Dashboard.md`）：
-   ```dataview
-   TABLE file.mtime AS "最后更新", tags
-   FROM "learning"
-   SORT file.mtime DESC
-   LIMIT 15
