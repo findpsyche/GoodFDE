@@ -1,0 +1,42 @@
+# 向量数据库与RAG相关依赖
+
+# LangChain核心
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-anthropic==0.1.1
+langchain-community==0.0.13
+
+# 向量数据库
+chromadb==0.4.22
+faiss-cpu==1.7.4
+# 如果有GPU，可以使用: faiss-gpu==1.7.4
+
+# Embedding模型
+sentence-transformers==2.3.1
+openai==1.10.0
+
+# 文档加载
+pypdf==4.0.1
+python-docx==1.1.0
+unstructured==0.12.0
+markdown==3.5.2
+
+# 文本处理
+tiktoken==0.5.2
+nltk==3.8.1
+
+# 工具库
+numpy==1.26.3
+pandas==2.2.0
+python-dotenv==1.0.0
+
+# 可视化（可选）
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# 评估工具
+ragas==0.1.5
+
+# 其他工具
+tqdm==4.66.1
+rich==13.7.0

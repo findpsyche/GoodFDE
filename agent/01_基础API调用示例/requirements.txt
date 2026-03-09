@@ -1,0 +1,16 @@
+# AI API调用基础依赖
+
+# OpenAI官方SDK
+openai>=1.12.0
+
+# Anthropic官方SDK
+anthropic>=0.18.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# Token计数工具
+tiktoken>=0.5.2
+
+# 命令行美化（可选）
+rich>=13.7.0

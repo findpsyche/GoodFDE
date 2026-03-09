@@ -1,0 +1,26 @@
+# LangChain核心库
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-anthropic==0.1.1
+langchain-community==0.0.13
+
+# 其他Agent框架（可选）
+llama-index==0.9.48
+
+# 工具依赖
+requests==2.31.0
+python-dotenv==1.0.0
+
+# 搜索工具
+duckduckgo-search==4.1.1
+wikipedia==1.4.0
+
+# 数学计算
+numexpr==2.8.8
+
+# 异步支持
+aiohttp==3.9.1
+
+# 日志和调试
+colorama==0.4.6
+rich==13.7.0

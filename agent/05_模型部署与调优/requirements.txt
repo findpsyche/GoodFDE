@@ -1,0 +1,46 @@
+# 核心依赖
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Ollama 客户端
+ollama>=0.1.0
+
+# vLLM（需要 GPU）
+# vllm>=0.2.0  # 取消注释以安装
+
+# Hugging Face 生态
+transformers>=4.36.0
+datasets>=2.16.0
+accelerate>=0.25.0
+peft>=0.7.0  # LoRA/QLoRA
+bitsandbytes>=0.41.0  # 量化
+
+# 训练和评估
+torch>=2.1.0
+tensorboard>=2.15.0
+wandb>=0.16.0  # 可选：实验跟踪
+evaluate>=0.4.0
+rouge-score>=0.1.2
+sacrebleu>=2.3.1
+
+# FastAPI 服务
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+
+# 性能测试
+locust>=2.20.0  # 负载测试
+psutil>=5.9.0  # 系统监控
+
+# 数据处理
+pandas>=2.1.0
+numpy>=1.24.0
+tqdm>=4.66.0
+
+# 可视化
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# 工具
+rich>=13.7.0  # 美化终端输出
+typer>=0.9.0  # CLI 工具
