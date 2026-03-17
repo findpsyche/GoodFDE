@@ -1,1 +1,5 @@
-在这里拆解how LLM works & how LLM can 融入不同的行业中
+what should LLM do can do can be ?
+what is it limit?
+how can be better LLM?
+how we can design it ?
+LLM 边界 未来的LLM是什么，如何做未来的LLM？
